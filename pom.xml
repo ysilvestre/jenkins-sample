@@ -16,8 +16,9 @@
     </dependency>
   </dependencies>
   <properties>
-  <sonar.projectKey>ysilvestre_jenkins-sample</sonar.projectKey>
-  <sonar.organization>ysilvestre</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
- </properties>
+    <sonar.projectKey>ysilvestre_jenkins-sample</sonar.projectKey>
+    <sonar.organization>ysilvestre</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.scanner.force-deprecated-java-version>true</sonar.scanner.force-deprecated-java-version>
+  </properties>
 </project>
